@@ -42,7 +42,7 @@ h2 {
   margin-bottom: 4px
 }
 
-p {
+p, ul, ol {
   margin: 0 0 1em 0
 }
 
@@ -157,12 +157,23 @@ table {
   #post code {
     border: 1px solid #ddd;
     background-color: #eef;
+    font-family: Consolas, Courier New, monospace;
     font-size: 85%;
     padding: 0 .2em;
   }
 
+  #post div.highlight pre {
+    background-color: #f8f8f8;
+    line-height: 100%;
+    margin: 8px 0;
+    padding: 4px;
+  }
+
     #post pre code {
+      background-color: #f8f8f8;
+      font-size: 90%;
       border: none;
+      padding: 0;
     }
 
   /* terminal */
