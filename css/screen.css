@@ -145,8 +145,10 @@ table {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+    background-color: #f8f8f8;
+    line-height: 100%;
+    margin: 8px 0;
+    padding: 4px;
   }
 
   #post ul,
@@ -160,13 +162,6 @@ table {
     font-family: Consolas, Courier New, monospace;
     font-size: 85%;
     padding: 0 .2em;
-  }
-
-  #post div.highlight pre {
-    background-color: #f8f8f8;
-    line-height: 100%;
-    margin: 8px 0;
-    padding: 4px;
   }
 
     #post pre code {
