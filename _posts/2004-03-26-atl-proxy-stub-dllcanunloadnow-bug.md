@@ -82,3 +82,5 @@ to:
 {% endhighlight %}
 
 This causes the DLL to stay in memory if any clients are using it as a proxy. Only when no one is using it as a proxy and no one is using the COM objects directly will the DLL be unloaded.
+
+See also [First VS2005 bug report](/2004/07/28/first-vs2005-bug-report.html).
